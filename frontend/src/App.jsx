@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-const API_URL = 'https://url-shortner-5cdl.onrender.com/';
+const API_URL = 'https://url-shortner-5cdl.onrender.com/shorten';
 
 function App() {
   const [longUrl, setLongUrl] = useState('');
