@@ -1,9 +1,10 @@
 # URL Shortener
 
-A full-stack URL shortener: paste a long URL, get back a short one, and visiting the short URL redirects you to the original.
+A URL shortener written in Node.js and Express, backed by PostgreSQL, with a React frontend.
 
-**Live demo:** [https://url-shortner-ten-blond.vercel.app/](https://url-shortner-ten-blond.vercel.app/)
-[https://url-shortner-5cdl.onrender.com/](https://url-shortner-5cdl.onrender.com/)
+**Website:** [https://url-shortner-ten-blond.vercel.app/](https://url-shortner-ten-blond.vercel.app/)
+
+**Backend:** [https://url-shortner-5cdl.onrender.com/](https://url-shortner-5cdl.onrender.com/)
 
 
 ## Tech Stack
