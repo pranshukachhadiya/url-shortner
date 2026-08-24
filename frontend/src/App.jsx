@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-const API_URL = 'http://localhost:3000';
+const API_URL = 'https://url-shortner-5cdl.onrender.com/';
 
 function App() {
   const [longUrl, setLongUrl] = useState('');
