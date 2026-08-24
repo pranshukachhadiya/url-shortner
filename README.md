@@ -2,9 +2,9 @@
 
 A full-stack URL shortener: paste a long URL, get back a short one, and visiting the short URL redirects you to the original.
 
-**Live demo:** [https://your-app.vercel.app](https://your-app.vercel.app) — replace with your actual Vercel URL
+**Live demo:** [https://url-shortner-ten-blond.vercel.app/](https://url-shortner-ten-blond.vercel.app/)
+[https://url-shortner-5cdl.onrender.com/](https://url-shortner-5cdl.onrender.com/)
 
-> Note: the backend is hosted on Render's free tier, which spins down after 15 minutes of inactivity. The first request after idle time may take 30–50 seconds to respond while the server wakes up.
 
 ## Tech Stack
 
@@ -56,7 +56,3 @@ Single table, `urls`:
 
 - **Backend (Render):** Web Service, root directory `backend`, build command `npm install`, start command `node index.js`. `DATABASE_URL` is set as an environment variable in the Render dashboard.
 - **Frontend (Vercel):** root directory `frontend`, framework auto-detected as Vite. `API_URL` in `src/App.jsx` is set to the deployed Render URL before deployment.
-
-## Repository
-
-[https://github.com/YOUR_USERNAME/url-shortener](https://github.com/YOUR_USERNAME/url-shortener) — replace with your actual repo link
